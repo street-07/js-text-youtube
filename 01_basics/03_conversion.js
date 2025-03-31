@@ -29,13 +29,68 @@ let isLogged="ram";
 //"ram"=>true
 
 
-let check=33
+let check=""
 
-console.log(typeof check);
+//console.log(typeof check);
 
 let change=String(check)
 
-console.log(typeof change);
-console.log(change);
+// console.log(typeof change);
+// console.log(change);
+
+
+//**********  Operation *****************
+
+let value =3
+let negvalue= -value //negative value
+
+console.log(negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2**2);  //power
+// console.log(2/3);
+// console.log(2%3); 
+
+
+let str1="hello"
+let str2="world"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log(1 + 2 + "3");   //joe pehla aeaga wo pehla execute hoga
+// // like if string comes first then it execute string first
+// console.log("1" + 2 + 3);
+
+console.log(+true);  // + convert bool to binary
+
+let num1 , num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let counter=100
+
+counter++
+
+console.log(counter);  //prefix and postix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
